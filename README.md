@@ -4,7 +4,15 @@
 To develop and fine tune the Monte Carlo algorithm to stabilize the Cart Pole.
 
 ## PROBLEM STATEMENT
-Explain the problem statement.
+```
+The Cart Pole problem is a classic reinforcement learning task where a pole is attached to a movable cart. The goal is to apply forces (left or right) such that the pole remains upright and the cart stays within bounds.
+Key points:
+  Reward = +1 for each time step the pole remains upright.
+  Episode ends if:
+Pole angle > ±12°
+Cart position > ±2.4 units
+Objective: Maximize total reward by learning an optimal policy that keeps the pole balanced for as long as possible.
+```
 
 ## MONTE CARLO CONTROL ALGORITHM FOR CART POLE BALANCING
 ```
